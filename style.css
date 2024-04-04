@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-/*programando o header*/
+/*-----------------------------------*/
+/*INICIO DA PROGRAMAÇÃO DO HEADER*/
+/*-----------------------------------*/
 .cabecalho 
 {
     background-color: #0a0909;
@@ -32,3 +34,44 @@
     padding: 20px 0;
     color:bisque
 }
+/*-------------FIM HEADER----------------------*/
+
+
+/*-----------------------------------*/
+/*INICIO DA PROGRAMAÇÃO DO NAVBAR*/
+/*-----------------------------------*/
+
+/*-------------FIM NAVBAR----------------------*/
+
+
+/*-----------------------------------*/
+/*INICIO DA PROGRAMAÇÃO DO SESSÃO1*/
+/*-----------------------------------*/
+.conteudo_sessao1{
+    display:flex; /* coloca texto, imagem e outros uma ao lado do outro */
+    background-image: -o-linear-gradient(#0a0909);
+    justify-content: center;
+    padding: 24px 0;
+}
+.conteudo_titulo1{
+    padding: 24px 0;;
+    color:#0a0909;
+    text-align: center;
+    border: solid, #b3b0b011, ;
+}
+.conteudo_subtitulo1{
+
+}
+.conteudo_texto1{    
+    text-align: justify;
+    margin-right: 20px;
+
+}
+.conteudo_div_sessao1{
+   width: 50%; 
+}
+.imagem_sessao1{
+    width: 20%;
+    height: 100px;
+}
+/*-------------FIM SESSÃO----------------------*/
