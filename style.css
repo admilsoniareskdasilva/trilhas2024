@@ -13,27 +13,38 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
-
-    /*text-align: center;*/
+    padding: 15px 0;   
 }
 .cabecalho-imagem{
-    width: 20%;
+    width: 30%;
     height: 100%;
+    margin-left: 0px;
 }
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px 0 10px;
+    margin: 0 10px 0 10px;
     font-size: 24px;
-
+    color:#ffffff;
 }
+
+/* modelando link*/
+    a{
+        color:white;
+    }
+    a:hover{
+        color:blue;
+    }
+/* fim modelando link*/
+
 .cabecalho-div{
     display:flex;
 }
 .cabecalho-titulo{
-    padding: 20px 0;
+    padding: 15px 0;
     color:bisque
 }
+
+
 /*-------------FIM HEADER----------------------*/
 
 
@@ -45,33 +56,135 @@
 
 
 /*-----------------------------------*/
-/*INICIO DA PROGRAMAÇÃO DO SESSÃO1*/
+/*INICIO DA PROGRAMAÇÃO DAS SESSÕES*/
 /*-----------------------------------*/
-.conteudo_sessao1{
-    display:flex; /* coloca texto, imagem e outros uma ao lado do outro */
-    background-image: -o-linear-gradient(#0a0909);
-    justify-content: center;
-    padding: 24px 0;
-}
-.conteudo_titulo1{
-    padding: 24px 0;;
-    color:#0a0909;
-    text-align: center;
-    border: solid, #b3b0b011, ;
-}
-.conteudo_subtitulo1{
+    .hr_linha {
+            border: none; /* Remove a linha padrão */
+            height: 1px; /* Define a altura da linha */
+            width: 100%; /* Define a largura da linha */
+            background-color: red; /* Define a cor da linha */
+            margin: 0px auto; /* Centraliza horizontalmente e define a margem superior e inferior */
+    }
+    ----------------------------------*/
+    /*INICIO DA PROGRAMAÇÃO SESSÃO1*/
+    /*-----------------------------------*/
+            .conteudo_sessao1{
+            display:flex; /* coloca texto, imagem e outros uma ao lado do outro */
+            background-color: rgb(216, 216, 208);
+            justify-content: center;
+            padding: 25px 0;
+        }
+        .conteudo_titulo1{
+            padding: 5px 0;;
+            color:#5f3333;
+            text-align: center;   
+        }
+        .conteudo_subtitulo1{
+            padding: 5px 0;;
+            color:#0a0909;
+            text-align: center;
+        }
+        .conteudo_texto1{    
+            text-align: justify;
+            margin-right: 70px;
+        }
+        .conteudo_div_sessao1{
+        width: 45%; 
+        }
+        .imagem_sessao1{
+            width: 25%;
+            height: 50%;
+            margin-right: 10px;
+        }
+    /*-------------FIM SESSÃO----------------------*/
 
-}
-.conteudo_texto1{    
-    text-align: justify;
-    margin-right: 20px;
+    /*-----------------------------------*/
+    /*INICIO DA PROGRAMAÇÃO DO SESSÃO2*/
+    /*-----------------------------------*/
+        .conteudo_sessao2{
+            display:flex; /* coloca texto, imagem e outros uma ao lado do outro */
+            background-color: rgb(216, 216, 208);
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .conteudo_titulo2{
+            padding: 24px 10px;;
+            color:#0a0909;
+            text-align: center;   
+        }
+        .conteudo_subtitulo2{
+            padding: 5px 0;;
+            color:#0a0909;
+            text-align: center;
+        }
+        .conteudo_texto2{    
+            text-align: justify;
+            
+        }
+        .conteudo_div_sessao2{
+        width: 45%; 
+        }
+        .imagem_sessao2{
+            width: 25%;
+            height: 100%;
+            margin-right: 10px;
+        }
+    /*-------------FIM SESSÃO----------------------*/
+     /*-----------------------------------*/
+    /*INICIO DA PROGRAMAÇÃO DO GRID*/
+    /*-----------------------------------*/
+    .conteudo_sessao3{
+        display:flex; /* coloca texto, imagem e outros uma ao lado do outro */
+        background-color: rgb(199, 199, 143);
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .imagemgrid{
+        padding: 16px 0;
+    }
+    .imagemgrid-imagem{
+        width: 20px;
+    }
+    
+    /* mexe com tamanho da imagem*/
+    .imagemgrid-icone{
+        width:100px;
+        padding: 0px 8px;
+    }
+    
+    .imagemgrid-div{
+        text-align: center;
+        padding: 10px 0;
+    }
+   
+    .imagemgrid-titulo{
+        text-align: center;
+        color: blue;
+        padding: 10px 0;        
+    }
+    
+    .imagemgrid-todos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
 
-}
-.conteudo_div_sessao1{
-   width: 50%; 
-}
-.imagem_sessao1{
-    width: 20%;
-    height: 100px;
-}
-/*-------------FIM SESSÃO----------------------*/
+
+    /*-----------------------------------*/
+    /*FIM DA PROGRAMAÇÃO DO GRIDS*/
+    /*-----------------------------------*/
+      
+
+    /*-----------------------------------*/
+    /*INICIO DA PROGRAMAÇÃO DO RODAPÉ*/
+    /*-----------------------------------*/
+  
+    .rodape{
+        background-color: black;
+        text-align: center;
+    }
+    .texto-rodape{
+        text-align: justify;
+        margin-right: 70px;
+        color:#ffffff;
+        text-align: center;padding: 12px 0;
+    }
