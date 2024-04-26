@@ -108,26 +108,28 @@
             padding: 10px 0;
         }
         .conteudo_titulo2{
-            padding: 24px 10px;;
+            padding: 24px 10px;
             color:#0a0909;
             text-align: center;   
         }
         .conteudo_subtitulo2{
-            padding: 5px 0;;
+            padding: 5px 0;
             color:#0a0909;
             text-align: center;
         }
         .conteudo_texto2{    
-            text-align: justify;
-            
+            text-align: justify;              
         }
         .conteudo_div_sessao2{
-        width: 45%; 
+            width: 50%; 
+            text-align: justify;  
+            padding: 5px 50px;    
         }
         .imagem_sessao2{
             width: 25%;
             height: 100%;
             margin-right: 10px;
+            margin-top:30px;
         }
     /*-------------FIM SESSÃO----------------------*/
      /*-----------------------------------*/
